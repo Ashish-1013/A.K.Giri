@@ -3,17 +3,17 @@
     height: calc(100vh - 4rem);
     width: 100vw;
     margin: 0 auto;
-    max-width: 85rem;
+    max-width: 75rem;
     overflow: hidden;
     position: relative;
 
 }
 .bg{
     position: absolute;
-    top: -4rem;
+    top: -3.5rem;    /*i change it for image*/
     right: 0;
     z-index: -1;
-    height: 110vh;
+    height: 100vh;
     object-fit: cover;
 
 }
@@ -56,21 +56,31 @@
     margin: 0 0.25rem;
     height: 1rem;
 }
-/*
-@media screen and (max-width:768px){
+
+
+@media screen and (max-width:840px){
     .bg{
-        right: -50
+        right: -28vw;
 
     }
+    .introContent{
+        font-size: 10vw;
+
+    }
+    .hello{
+        font-size: 4.5vw;
+    }
 }
-    */
 
 
+
+
+/*
 @media screen and (max-width: 768px) {
     .introContent {
         font-size: 2rem;
-        align-items: center; /* Center align text for smaller screens */
-        text-align: center;
+        align-items: center; 
+        text-align:center;
     }
 
     .bg {
@@ -86,4 +96,9 @@
     .btnImg {
         height: 0.75rem
     }
+    .introName{
+        color: red;
+    }
+        
 }
+*/

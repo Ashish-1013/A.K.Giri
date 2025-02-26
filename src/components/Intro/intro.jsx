@@ -10,8 +10,8 @@ return (
         <div className="introContent">
             <span className="hello">Hello</span>
             <span className="introText"> I'm <span className="introName">Ashish,<br/></span>Website Devloper</span>
-            <p className="introPara">I am a Skilled web developer with a passion for creating dynamic, user-friendly websites.<br/>
-                I specialize in building seamless, scalable solutions that drive engagement and performance.</p>
+            <p className="introPara">\\Transforming ideas into seamless, user-centric web experiences<br></br>
+            \\explore my portfolio to see how I bring creativity and functionality to life.</p>
             <Link><button className="btn"><img src={btnImg} alt="hire me" className="btnImg"/> Hire Me</button></Link>
         </div>
         <img src={bg} alt="my image" className="bg" />
