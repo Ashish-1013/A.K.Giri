@@ -10,10 +10,11 @@
 }
 .bg{
     position: absolute;
-    top: -3.5rem;    /*i change it for image*/
+    /*i top: -0rem;    change it for image*/
+    top: 1rem;
     right: 0;
     z-index: -1;
-    height: 100vh;
+    height: 90vh;
     object-fit: cover;
 
 }
@@ -60,7 +61,7 @@
 
 @media screen and (max-width:840px){
     .bg{
-        right: -28vw;
+        right: -15vw;
 
     }
     .introContent{
@@ -70,39 +71,4 @@
     .hello{
         font-size: 4.5vw;
     }
-    .introPara{
-        color: black;
-        font-weight: 400;
-    }
 }
-
-
-
-
-/*
-@media screen and (max-width: 768px) {
-    .introContent {
-        font-size: 2rem;
-        align-items: center; 
-        text-align:center;
-    }
-
-    .bg {
-        right: -50px;
-        height: 90vh;
-    }
-
-    .btn {
-        font-size: 0.875rem;
-        padding: 0.5rem 1rem;
-    }
-
-    .btnImg {
-        height: 0.75rem
-    }
-    .introName{
-        color: red;
-    }
-        
-}
-*/
