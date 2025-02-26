@@ -12,7 +12,7 @@
     position: absolute;
     /*i top: -0rem;    change it for image*/
     top: 1rem;
-    right: 0;
+    right: 4rem;
     z-index: -1;
     height: 90vh;
     object-fit: cover;
@@ -61,7 +61,7 @@
 
 @media screen and (max-width:840px){
     .bg{
-        right: -15vw;
+        right: -12vw;
 
     }
     .introContent{
@@ -72,3 +72,10 @@
         font-size: 4.5vw;
     }
 }
+/*
+@media screen and (max-width:550px){
+    .bg{
+        right: -18vw;
+
+    }
+} */
