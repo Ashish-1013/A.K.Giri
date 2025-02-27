@@ -61,7 +61,7 @@
 
 @media screen and (max-width:840px){
     .bg{
-        right: -12vw;
+        right: -16vw;
 
     }
     .introContent{
@@ -72,10 +72,3 @@
         font-size: 4.5vw;
     }
 }
-/*
-@media screen and (max-width:550px){
-    .bg{
-        right: -18vw;
-
-    }
-} */
