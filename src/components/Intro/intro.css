@@ -74,7 +74,7 @@
 }
 @media screen and (max-width:750px){
     .bg{
-        right: -40vw;
+        right: -20vw;
 
     }
     
@@ -82,7 +82,7 @@
 
 @media screen and (max-width:525px){
     .bg{
-        right: -50vw;
+        right: -30vw;
 
     }
     
