@@ -42,17 +42,17 @@ function Contact() {
           <span className="contactDesc">Please fill out the form below to discuss any work opportunities.</span>
 
           <form action="" className="contactForm" ref={form} onSubmit={sendEmail} >
-            <input type="text" className="name" placeholder='Your Name' name="your_name" />
-            <input type="email" className="email" placeholder='Your Email' name="your_email" />
+            <input type="text" className="name" placeholder='Your Name' name="user_name" />
+            <input type="email" className="email" placeholder='Your Email' name="user_email" />
             <textarea rows="5" placeholder='Give your message here...' className="msg" name="message" ></textarea>
             <button className="submitBtn" type='submit' value="send" >SEND</button>
             <div className="links">
               
-              <img src={Instagram} alt="Instagram" className="link" />
-              <img src={Linkedin} alt="Linkedin" className="link" />
-              <img src={GitHub} alt="GitHub" className="link" />
-              <img src={Telegram} alt="Telegram" className="link" />
-              
+
+              <a href="https://www.instagram.com/a.k.giri_/" target="_blank" rel="noopener noreferrer"><img src={Instagram} alt="Instagram" className="link" /></a>
+              <a href="https://www.linkedin.com/in/akgiri10/" target="_blank" rel="noopener noreferrer"><img src={Linkedin} alt="Linkedin" className="link" /></a>
+              <a href="https://github.com/Ashish-1013" target="_blank" rel="noopener noreferrer"><img src={GitHub} alt="GitHub" className="link" /></a>
+              <a href="http://t.me/Das_leo_0" target="_blank" rel="noopener noreferrer"><img src={Telegram} alt="Telegram" className="link" /></a>
             </div>
           </form>
         </div>
