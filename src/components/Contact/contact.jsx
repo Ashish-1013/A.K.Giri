@@ -21,13 +21,13 @@ function Contact() {
             <textarea name="message" rows="5" placeholder='Give your message here...' className="msg"></textarea>
             <button className="submitBtn" type='submit' value="send" >Submit</button>
             <div className="links">
-              <img src={Facebook} alt="Facebook" className="link" />
+              
               <img src={Instagram} alt="Instagram" className="link" />
               <img src={Twiter} alt="Twiter" className="link" />
               <img src={Linkedin} alt="Linkedin" className="link" />
               <img src={GitHub} alt="GitHub" className="link" />
               <img src={Telegram} alt="Telegram" className="link" />
-              <img src={YouTube} alt="YouTube" className="link" />
+              
             </div>
           </form>
         </div>
