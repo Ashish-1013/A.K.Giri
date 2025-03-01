@@ -1,0 +1,35 @@
+#careerPage{
+    min-height: calc(100vh -4 rem);
+    width: 100vw;
+    max-width: 60rem;
+    margin : 0 auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+}
+
+.careerPageTitle{
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+.careerDesc{
+    font-weight: 300;
+    font-size: 1rem;
+    
+
+}
+.careerImgs{
+    margin: 1rem 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+.careerImg{
+    object-fit: cover;
+    width: 23%;
+    min-width: 9rem;
+    margin:auto;
+    padding: 0.25rem;
+}

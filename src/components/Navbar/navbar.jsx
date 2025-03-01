@@ -12,9 +12,9 @@ const Navbar =()=>{
 
             <div className="desktopMenu">
                 <Link className={style.desktopMenuListItem}>Home</Link>
-                <Link className={style.desktopMenuListItem}>Clients</Link>
                 <Link className={style.desktopMenuListItem}>About</Link>
                 <Link className={style.desktopMenuListItem}>Portfoleo</Link>
+                <Link className={style.desktopMenuListItem}>Career</Link>
             </div>
 
             <button className={style.desktopMenuBtn}>
