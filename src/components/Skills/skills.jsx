@@ -18,23 +18,23 @@ const Skills = () => {
                 <img src={UIDesgine} alt="ui image" className="skillBarImg" />
                 <div className="skillBarText">
                 <h2>UI/UX Desgine</h2>
-                <p>UI/UX design focuses on creating intuitive, visually appealing, and user-friendly interfaces that enhance user satisfaction and deliver seamless digital experiences.</p>
+                <p>UI/UX design creates intuitive, user-friendly interfaces.</p>
                 </div>
             </div>
 
             <div className="skillBar">
                 <img src={WebDesign} alt="web design" className="skillBarImg" />
                 <div className="skillBarText">
-                <h2>Frontend (Client-Side)</h2>
-                <p>Transforming ideas into interactive, responsive, and visually stunning web experiences through clean code and innovative design.</p>
+                <h2>Frontend(Client-Side)</h2>
+                <p>Transforming Ideas into Stunning Interactive Web Experiences.</p>
                 </div>
             </div>
 
             <div className="skillBar">
                 <img src={AppDesgine} alt="app design" className="skillBarImg" />
                 <div className="skillBarText">
-                <h2>Backend (Server-Side)</h2>
-                <p>Building robust, scalable, and efficient server-side systems that power seamless user experiences and drive application performance.</p>
+                <h2>Backend(Server-Side)</h2>
+                <p>Powering Seamless Digital Experiences with Precision and Reliability.</p>
                 </div>
             </div>
 
@@ -42,7 +42,7 @@ const Skills = () => {
                 <img src={DataBase} alt="Database" className="skillBarImg" />
                 <div className="skillBarText">
                 <h2>Database</h2>
-                <p>Designing and optimizing databases to ensure secure, efficient, and reliable storage and retrieval of data for seamless application functionality.</p>
+                <p>Ensuring Data Integrity, Security, and Optimal Performance.</p>
                 </div>
             </div>
         </div>

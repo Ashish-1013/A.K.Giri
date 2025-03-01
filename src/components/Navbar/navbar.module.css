@@ -1,5 +1,5 @@
 .navbar{
-    background: rgb(30,30,30);
+    background: rgb(25, 25, 25);
     height: 5rem;
     width: 100vw;
     max-width: 75rem;
@@ -11,6 +11,7 @@
     position: sticky;
     top: 0;
     z-index: 3;
+    border-radius: 1.5rem;
 }
 .logo{
     object-fit: cover;

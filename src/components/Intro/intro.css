@@ -72,3 +72,18 @@
         font-size: 4.5vw;
     }
 }
+@media screen and (max-width:750px){
+    .bg{
+        right: -40vw;
+
+    }
+    
+}
+
+@media screen and (max-width:525px){
+    .bg{
+        right: -50vw;
+
+    }
+    
+}
