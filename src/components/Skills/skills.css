@@ -1,3 +1,5 @@
+
+/*
 #skills{
     overflow: hidden;
     width: 100vw;
@@ -74,4 +76,153 @@
     .sskillBarText >h2{
         font-size: 5vw;
     }
+}
+
+*/
+
+/* skills.css */
+
+/* Skills Section */
+#skills {
+    overflow: hidden;
+    width: 100vw;
+    max-width: 65rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+    padding: 2rem 1rem;
+    /*background: linear-gradient(145deg, #1a1a1a, #2a2a2a); /* Gradient background 
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.3), -10px -10px 20px rgba(255, 255, 255, 0.05); /* 3D shadow 
+    border-radius: 1.5rem;
+}
+
+/* Skill Title */
+.skillTitle {
+    font-size: 3rem;
+    font-weight: 600;
+    padding-top: 3rem;
+    margin-bottom: 1.5rem;
+    color: white;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); /* Text shadow for depth */
+}
+
+/* Skill Description */
+.skillDesc {
+    font-size: 1rem;
+    font-weight: 400;
+    max-width: 51rem;
+    padding: 0 2rem;
+    color: #ccc; /* Light gray for description */
+    line-height: 1.5;
+}
+
+/* Skill Bars Container */
+.skillBars {
+    margin: 1.5rem;
+    width: 100vw;
+    max-width: 80%;
+    text-align: left;
+}
+
+/* Individual Skill Bar */
+.skillBar {
+    display: flex;
+    margin: 1rem;
+    padding: 1.5rem 2rem;
+    border-radius: 0.5rem;
+    background: linear-gradient(145deg, #3a3a3a, #2a2a2a); /* Gradient background */
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3), -5px -5px 10px rgba(255, 255, 255, 0.05); /* 3D shadow */
+    align-items: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+}
+
+.skillBar:hover {
+    transform: translateY(-5px); /* Lift effect */
+    box-shadow: 8px 8px 15px rgba(0, 0, 0, 0.4), -8px -8px 15px rgba(255, 255, 255, 0.1); /* Enhanced shadow */
+}
+
+/* Skill Bar Image */
+.skillBarImg {
+    object-fit: cover;
+    height: 3rem;
+    width: 3rem;
+    margin-right: 2rem;
+    filter: drop-shadow(2px 2px 5px rgba(0, 0, 0, 0.5)); /* Shadow for image */
+}
+
+/* Skill Bar Text */
+.skillBarText {
+    flex: 1;
+}
+
+.skillBarText h2 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: white;
+    margin-bottom: 0.5rem;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); /* Text shadow for depth */
+}
+
+.skillBarText p {
+    font-size: 0.9rem;
+    font-weight: 300;
+    color: #ccc; /* Light gray for paragraph */
+    line-height: 1.5;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 720px) {
+    .skillTitle {
+        font-size: 2.5rem;
+    }
+
+    .skillDesc {
+        font-size: 0.9rem;
+    }
+
+    .skillBar {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 1rem;
+    }
+
+    .skillBarImg {
+        margin-right: 0;
+        margin-bottom: 1rem;
+    }
+
+    .skillBarText h2 {
+        font-size: 1.25rem;
+    }
+
+    .skillBarText p {
+        font-size: 0.8rem;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .skillTitle {
+        font-size: 2rem;
+    }
+
+    .skillDesc {
+        font-size: 0.8rem;
+    }
+
+    .skillBar {
+        padding: 0.75rem;
+    }
+
+    .skillBarText h2 {
+        font-size: 1rem;
+    }
+
+    .skillBarText p {
+        font-size: 0.75rem;
+    }
+}
 }

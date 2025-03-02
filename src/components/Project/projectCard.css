@@ -12,6 +12,9 @@
     justify-content: center;
     text-align: center;
     padding: 2rem 1rem;
+    background: linear-gradient(145deg, #1a1a1a, #2a2a2a); /* Gradient background */
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.3), -10px -10px 20px rgba(255, 255, 255, 0.05); /* 3D shadow */
+    border-radius: 1.5rem;
 }
 
 /* Page Title Styling */
@@ -23,13 +26,14 @@
     margin: 1rem 0;
     font-size: 3rem;
     color: white;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); /* Text shadow for depth */
 }
 
 .paragraph {
     font-weight: 300;
     font-size: 1rem;
     max-width: 45rem;
-    color: white;
+    color: #ccc; /* Light gray for paragraph */
     line-height: 1.5;
 }
 
@@ -44,31 +48,32 @@
 
 /* Individual Project Card Styling */
 .project {
-    background-color: white;
+    background: linear-gradient(145deg, #3a3a3a, #2a2a2a); /* Gradient background */
     border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3), -5px -5px 10px rgba(255, 255, 255, 0.05); /* 3D shadow */
     padding: 1.5rem;
     text-align: left;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
-
-    flex-wrap: wrap;
+    cursor: pointer;
 }
 
 .project:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    transform: translateY(-5px); /* Lift effect */
+    box-shadow: 8px 8px 15px rgba(0, 0, 0, 0.4), -8px -8px 15px rgba(255, 255, 255, 0.1); /* Enhanced shadow */
 }
 
 .proName {
     font-size: 1.5rem;
     margin-bottom: 1rem;
-    color: #333;
+    color: white;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); /* Text shadow for depth */
 }
 
 .proImg {
     width: 100%;
     border-radius: 10px;
     margin-bottom: 1rem;
+    filter: drop-shadow(2px 2px 5px rgba(0, 0, 0, 0.5)); /* Shadow for image */
 }
 
 .list {
@@ -81,48 +86,56 @@
 }
 
 .list ul {
-    background-color: #f0f0f0;
+    background: linear-gradient(145deg, #4a4a4a, #3a3a3a); /* Gradient background */
     padding: 0.5rem 1rem;
     border-radius: 20px;
     font-size: 0.875rem;
-    color: #555;
+    color: white;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3), -2px -2px 5px rgba(255, 255, 255, 0.05); /* 3D shadow */
 }
 
 .proDetail {
     font-size: 1rem;
-    color: #666;
+    color: #ccc; /* Light gray for paragraph */
     margin-bottom: 1.5rem;
     line-height: 1.5;
 }
 
 .button {
-    background-color: #007bff;
+    background: linear-gradient(145deg, #007bff, #0056b3); /* Gradient button */
     color: white;
     border: none;
     padding: 0.75rem 1.5rem;
     border-radius: 5px;
     font-size: 1rem;
     cursor: pointer;
-    transition: background-color 0.3s ease;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
     margin-right: 0.5rem;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.2), -3px -3px 8px rgba(255, 255, 255, 0.1); /* 3D shadow */
 }
 
 .button:hover {
-    background-color: #0056b3;
+    transform: translateY(-2px); /* Lift effect */
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3), -5px -5px 15px rgba(255, 255, 255, 0.1); /* Enhanced shadow */
 }
 
-
-.workBtn{
+.workBtn {
     margin: 3rem 0;
     padding: 0.5rem 2.5rem;
     border: none;
     border-radius: 2rem;
-    background: white;
+    background: linear-gradient(145deg, #007bff, #0056b3); /* Gradient button */
+    color: rgb(5, 5, 5);
     font-size: 1rem;
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.2), -3px -3px 8px rgba(255, 255, 255, 0.1); /* 3D shadow */
 }
 
-
-
+.workBtn:hover {
+    transform: translateY(-2px); /* Lift effect */
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3), -5px -5px 15px rgba(255, 255, 255, 0.1); /* Enhanced shadow */
+}
 
 /* Responsive Design */
 @media (max-width: 768px) {

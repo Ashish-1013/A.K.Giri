@@ -1,3 +1,4 @@
+/*
 .footer{
     width: 100vw;
     height: 4rem;
@@ -7,4 +8,71 @@
     justify-content: center;
     font-weight: 300;
     font-size: small;
+}
+*/
+
+/* footer.css */
+
+/* Footer Styling */
+.footer {
+    background: linear-gradient(145deg, #1a1a1a, #2a2a2a); /* Gradient background */
+    color: white;
+    text-align: center;
+    padding: 2rem 1rem;
+    font-size: 1.25rem;
+    font-weight: 500;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.3), -10px -10px 20px rgba(255, 255, 255, 0.05); /* 3D shadow */
+    border-radius: 1.5rem 1.5rem 0 0;
+    position: relative;
+    overflow: hidden;
+    margin-top: 2rem;
+}
+
+/* Heart Animation */
+.footer::before {
+    content: "❤️";
+    position: absolute;
+    top: -20px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 3rem;
+    animation: float 3s ease-in-out infinite; /* Floating animation */
+}
+
+@keyframes float {
+    0%, 100% {
+        transform: translate(-50%, 0);
+    }
+    50% {
+        transform: translate(-50%, -10px); /* Floating effect */
+    }
+}
+
+/* Text Glow Effect */
+.footer span {
+    color: #ff4d4d; /* Red color for heart */
+    text-shadow: 0 0 10px rgba(255, 77, 77, 0.8), 0 0 20px rgba(255, 77, 77, 0.6), 0 0 30px rgba(255, 77, 77, 0.4); /* Glow effect */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .footer {
+        font-size: 1rem;
+        padding: 1.5rem 1rem;
+    }
+
+    .footer::before {
+        font-size: 2rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .footer {
+        font-size: 0.875rem;
+        padding: 1rem;
+    }
+
+    .footer::before {
+        font-size: 1.5rem;
+    }
 }
