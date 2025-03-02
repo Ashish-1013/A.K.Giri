@@ -42,8 +42,8 @@ function Contact() {
           <span className="contactDesc">Please fill out the form below to discuss any work opportunities.</span>
 
           <form action="" className="contactForm" ref={form} onSubmit={sendEmail} >
-            <input type="text" className="name" placeholder='Your Name' name="user_name" />
-            <input type="email" className="email" placeholder='Your Email' name="user_email" />
+            <input type="text" className="name" placeholder='Your Name' name="from_name" />
+            <input type="email" className="email" placeholder='Your Email' name="from_email" />
             <textarea rows="5" placeholder='Give your message here...' className="msg" name="message" ></textarea>
             <button className="submitBtn" type='submit' value="send" >SEND</button>
             <div className="links">
