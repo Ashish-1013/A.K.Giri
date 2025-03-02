@@ -1,0 +1,186 @@
+
+/*#certificatesContainer{
+  margin: 0 auto;
+  min-height: calc(100vh-4rem);
+  width: 100vw;
+  max-width: 60rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 0 1rem;
+}
+
+.portfolioTitle{
+  margin: 1rem 0;
+  font-size: 3rem;
+}
+
+.portfolioDesc{
+  font-weight: 300;
+  font-size: 1rem;
+  max-width: 245rem;
+}
+
+.certificateCard{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100vw;
+  max-width: 65rem;
+}
+
+
+
+.certificateImage{
+  height: 10rem;
+  width: 15rem;
+  border: 1rem;
+  border-radius: 1rem;
+}
+  */
+
+
+  #certificatesContainer {
+    margin: 0 auto;
+    min-height: calc(100vh - 4rem);
+    width: 100vw;
+    max-width: 60rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 0 1rem;
+  }
+  
+  .portfolioTitle {
+    margin: 1rem 0;
+    font-size: 3rem;
+    color: #fff; /* White text for better contrast */
+    /*text-shadow: 0 0 10px #00ffcc, 0 0 20px #00ffcc, 0 0 30px #00ffcc;  Glow effect */
+    /*animation: glow 2s infinite alternate;  Glow animation */
+  }
+  /*
+  @keyframes glow {
+    from {
+      text-shadow: 0 0 10px #00ffcc, 0 0 20px #00ffcc, 0 0 30px #00ffcc;
+    }
+    to {
+      text-shadow: 0 0 20px #00ffcc, 0 0 30px #00ffcc, 0 0 40px #00ffcc;
+    }
+  }
+  */
+  .portfolioDesc {
+    font-weight: 300;
+    font-size: 1rem;
+    max-width: 45rem;
+    margin-bottom: 2rem;
+    color: #ccc; /* Light gray for description */
+  }
+  
+  .certificatesGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 2rem;
+    width: 100%;
+    padding: 0 1rem;
+    perspective: 1000px; /* Adds perspective for 3D effect */
+  }
+  
+  .certificateCard {
+    background: linear-gradient(145deg, #000000, #555454); /* Gradient background */
+    border: 1px solid #444; /* Darker border for contrast */
+    border-radius: 1rem;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3), 0 0 20px rgba(255, 255, 255, 0.1) inset; /* 3D shadow with inner glow */
+    overflow: hidden;
+    transition: transform 0.5s ease, box-shadow 0.5s ease;
+    transform-style: preserve-3d; /* Enables 3D transformations */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    position: relative;
+  }
+  
+  .certificateCard:hover {
+    transform: rotateY(15deg) rotateX(10deg) translateY(-10px); /* 3D rotation and lift effect */
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.5), 0 0 30px rgba(255, 255, 255, 0.2) inset; /* Enhanced 3D shadow on hover */
+  }
+  
+  .certificateLink {
+    display: block;
+    text-decoration: none;
+    width: 100%;
+    text-align: center;
+  }
+  
+  .certificateImage {
+    height: 10rem;
+    width: 15rem;
+    object-fit: cover;
+    border-radius: 0.5rem;
+    transition: transform 0.5s ease;
+  }
+  
+  .certificateCard:hover .certificateImage {
+    transform: scale(1.05); /* Slight zoom effect on hover */
+  }
+  
+  .certificateName {
+    margin: 1rem 0 0;
+    font-size: 1.2rem;
+    color: #00ffcc; /* Bright cyan to match the gradient */
+    text-align: center;
+    transition: transform 0.5s ease, color 0.5s ease;
+  }
+  
+  .certificateCard:hover .certificateName {
+    transform: translateY(-5px); /* Lift effect for text */
+    color: #00ffcc;  /*Maintain color consistency on hover */
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .portfolioTitle {
+      font-size: 2.5rem;
+    }
+  
+    .portfolioDesc {
+      font-size: 0.9rem;
+      max-width: 90%;
+    }
+  
+    .certificatesGrid {
+      grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+      gap: 1.5rem;
+    }
+  
+    .certificateImage {
+      height: 8rem;
+      width: 12rem;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .portfolioTitle {
+      font-size: 2rem;
+    }
+  
+    .portfolioDesc {
+      font-size: 0.8rem;
+    }
+  
+    .certificatesGrid {
+      grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+      gap: 1rem;
+    }
+  
+    .certificateImage {
+      height: 6rem;
+      width: 10rem;
+    }
+  }
