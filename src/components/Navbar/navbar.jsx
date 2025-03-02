@@ -11,7 +11,7 @@ const Navbar =()=>{
     //for reminding and scroll
     const contactMe = () => {
         const contactPage = document.getElementById('contactPage');
-        const offset = 100; // Adjust this value based on your needs (e.g., height of your fixed header)
+        const offset = 70; // Adjust this value based on your needs (e.g., height of your fixed header)
     
         // Calculate the position of the element minus the offset
         const elementPosition = contactPage.getBoundingClientRect().top + window.pageYOffset;
@@ -39,7 +39,7 @@ const Navbar =()=>{
 
             <div className={style.desktopMenu}>
                 <Link activeClass={style.active} to="intro" spy={true} smooth={true} offset={-100} duration={500} className={style.desktopMenuListItem}>Home</Link>
-                <Link activeClass={style.active} to="skills" spy={true} smooth={true} offset={-50} duration={500} className={style.desktopMenuListItem}>About</Link>
+                <Link activeClass={style.active} to="skills" spy={true} smooth={true} offset={-30} duration={500} className={style.desktopMenuListItem}>About</Link>
                 <Link activeClass={style.active} to="projectSec" spy={true} smooth={true} offset={-50} duration={500} className={style.desktopMenuListItem}>Projects</Link>
                 <Link activeClass={style.active} to="career" spy={true} smooth={true} offset={-50} duration={500} className={style.desktopMenuListItem}>Career</Link>
             </div>

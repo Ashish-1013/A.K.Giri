@@ -26,7 +26,7 @@ const ProjectCard = () => {
                 </li>
                 <p className="proDetail">This portfolio highlights a full-stack developer's expertise with a sleek design, showcasing projects, skills, and career journey.</p>
                 <a href="https://github.com/Ashish-1013/A.K.Giri" target="_blank" rel="noopener noreferrer"><button className="button">GitHub</button></a>
-                <a href="https://ashish-1013.github.io/A.K.Giri/" target="_blank" rel="noopener noreferrer"><button className="button">Demo</button></a>
+                <a href="https://ashish-1013.github.io/A.K.Giri/" target="_blank" rel="noopener noreferrer"><button className="button">GO</button></a>
             </div>
             <div className="project">
                 <h3 className="proName">E-Commorce</h3>
@@ -38,7 +38,7 @@ const ProjectCard = () => {
                 </li>
                 <p className="proDetail">Magical Shopper is a E-commorce website , i created this with my friends help and our trenner Mr Murthy sir's help.</p>
                 <a href="https://github.com/Ashish-1013/Magical_Shopper/" target="_blank" rel="noopener noreferrer"><button className="button">GitHub</button></a>
-                <a href="https://ashish-1013.github.io/Magical_Shopper/" target="_blank" rel="noopener noreferrer"><button className="button">Demo</button></a>
+                <a href="https://ashish-1013.github.io/Magical_Shopper/" target="_blank" rel="noopener noreferrer"><button className="button">GO</button></a>
             </div>
             <div className="project">
                 <h3 className="proName">jiocinema clone</h3>
@@ -51,7 +51,7 @@ const ProjectCard = () => {
                 </li>
                 <p className="proDetail">i create this in one youtube live webinar, its great experience for me.</p>
                 <a href="https://github.com/Ashish-1013/Jio_Cinema_clone_Demo" target="_blank" rel="noopener noreferrer"><button className="button">GitHub</button></a>
-                <a href="http://" target="_blank" rel="noopener noreferrer"><button className="button">Demo</button></a>
+                <a href="http://" target="_blank" rel="noopener noreferrer"><button className="button">GO</button></a>
             </div>
             </div>
             <a href="https://github.com/Ashish-1013" target="_blank" rel="noopener noreferrer"><button className="workBtn">See More</button></a>
