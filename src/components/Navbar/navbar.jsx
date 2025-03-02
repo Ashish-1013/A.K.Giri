@@ -11,7 +11,7 @@ const Navbar =()=>{
     //for reminding and scroll
     const contactMe = () => {
         const contactPage = document.getElementById('contactPage');
-        const offset = 70; // Adjust this value based on your needs (e.g., height of your fixed header)
+        const offset = 90; // Adjust this value based on your needs (e.g., height of your fixed header)
     
         // Calculate the position of the element minus the offset
         const elementPosition = contactPage.getBoundingClientRect().top + window.pageYOffset;
