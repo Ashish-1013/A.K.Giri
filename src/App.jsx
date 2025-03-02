@@ -1,6 +1,7 @@
 // import { useState } from 'react'
 
 import Career from './components/Career/career';
+import CareerJourney from './components/Career/careerJourney';
 import Contact from './components/Contact/contact';
 import Footer from './components/Footer/footer';
 import Intro from './components/Intro/intro';
@@ -18,7 +19,8 @@ function App() {
       <Skills/>
       <ProjectCard />
       
-      <Career />
+      <CareerJourney />
+      
       <Contact />
       <Footer />
     </div>

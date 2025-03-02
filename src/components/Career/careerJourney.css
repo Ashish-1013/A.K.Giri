@@ -1,0 +1,270 @@
+/* Journey Section 
+#journey{
+    min-height: calc(100vh -4 rem);
+    width: 100vw;
+    max-width: 60rem;
+    margin : 0 auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+}
+
+
+
+
+.journeyTitle {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+.journeyDesc {
+    font-size: 1rem;
+    margin-bottom: 2rem;
+}
+  
+  /* Timeline 
+  .timeline {
+    position: relative;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .timeline::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 2px;
+    height: 100%;
+    background: #007bff;
+    transform: translateX(-50%);
+  }
+  
+  .timelineItem {
+    padding: 20px 40px;
+    position: relative;
+    width: 50%;
+  }
+  
+  .timelineItem:nth-child(odd) {
+    left: 0;
+    text-align: right;
+  }
+  
+  .timelineItem:nth-child(even) {
+    left: 50%;
+    text-align: left;
+  }
+  
+  .timelineDot {
+    position: absolute;
+    top: 20px;
+    right: -10px;
+    width: 20px;
+    height: 20px;
+    background: #007bff;
+    border-radius: 50%;
+    z-index: 1;
+  }
+  
+  .timelineItem:nth-child(even) .timelineDot {
+    left: -10px;
+  }
+  
+  .timelineContent {
+    padding: 20px;
+    background: rgb(30, 30, 30);
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .timelineYear {
+    font-size: 1.25rem;
+    color: #007bff;
+    margin-bottom: 0.5rem;
+  }
+  
+  .timelineTitle {
+    font-size: 1.5rem;
+    color: rgb(67, 70, 221);
+    margin-bottom: 0.5rem;
+  }
+  
+  .timelineDescription {
+    font-size: 1rem;
+    color: rgb(255, 255, 255);
+    line-height: 1.5;
+  }
+  
+  /* Responsive Design 
+  @media (max-width: 768px) {
+    .timelineItem {
+      width: 100%;
+      left: 0 !important;
+      text-align: left !important;
+      padding: 20px 20px 20px 60px;
+    }
+  
+    .timelineDot {
+      left: 20px !important;
+      right: auto;
+    }
+  
+    .timeline::before {
+      left: 20px;
+    }
+  }
+*/
+
+
+
+/* Journey Section */
+#journey {
+    min-height: calc(100vh - 4rem);
+    width: 100vw;
+    max-width: 60rem;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+    color: white;
+}
+
+.journeyTitle {
+    font-size: 2.5rem; /* Smaller title */
+    margin-bottom: 1rem;
+}
+
+.journeyDesc {
+    font-size: 0.875rem; /* Smaller description */
+    margin-bottom: 2rem;
+    color: #ccc; /* Light gray for description */
+}
+
+/* Timeline */
+.timeline {
+    position: relative;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.timeline::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 2px;
+    height: 100%;
+    background: #0400fa; /* blue timeline line */
+    transform: translateX(-50%);
+}
+
+.timelineItem {
+    padding: 15px 30px; /* Smaller padding */
+    position: relative;
+    width: 50%;
+}
+
+.timelineItem:nth-child(odd) {
+    left: 0;
+    text-align: right;
+}
+
+.timelineItem:nth-child(even) {
+    left: 50%;
+    text-align: left;
+}
+
+.timelineDot {
+    position: absolute;
+    top: 15px; /* Adjusted position */
+    right: -8px; /* Smaller offset */
+    width: 16px; /* Smaller dot */
+    height: 16px;
+    background: #1427f6; /* blue dot */
+    border-radius: 50%;
+    z-index: 1;
+}
+
+.timelineItem:nth-child(even) .timelineDot {
+    left: -8px; /* Smaller offset */
+}
+
+.timelineContent {
+    padding: 15px; /* Smaller padding */
+    background: rgb(30, 30, 30);
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3), 0 6px 20px rgba(0, 0, 0, 0.2); /* 3D shadow */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.timelineContent:hover {
+    transform: translateY(-5px); /* Lift effect */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4), 0 12px 40px rgba(0, 0, 0, 0.3); /* Enhanced shadow */
+}
+
+.timelineYear {
+    font-size: 1rem; /* Smaller year */
+    color: #007bff; /* Blue color for year */
+    margin-bottom: 0.5rem;
+}
+
+.timelineTitle {
+    font-size: 1.25rem; /* Smaller title */
+    color: #ff4d4d; /* Red color for title */
+    margin-bottom: 0.5rem;
+}
+
+.timelineDescription {
+    font-size: 0.875rem; /* Smaller description */
+    color: rgb(255, 255, 255);
+    line-height: 1.5;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .journeyTitle {
+        font-size: 1.75rem; /* Smaller title for mobile */
+    }
+
+    .journeyDesc {
+        font-size: 0.75rem; /* Smaller description for mobile */
+    }
+
+    .timelineItem {
+        width: 100%;
+        left: 0 !important;
+        text-align: left !important;
+        padding: 15px 15px 15px 40px; /* Adjusted padding for mobile */
+    }
+
+    .timelineDot {
+        left: 15px !important; /* Adjusted position for mobile */
+        right: auto;
+    }
+
+    .timeline::before {
+        left: 15px; /* Adjusted position for mobile */
+    }
+
+    .timelineContent {
+        padding: 10px; /* Smaller padding for mobile */
+    }
+
+    .timelineYear {
+        font-size: 0.875rem; /* Smaller year for mobile */
+    }
+
+    .timelineTitle {
+        font-size: 1rem; /* Smaller title for mobile */
+    }
+
+    .timelineDescription {
+        font-size: 0.75rem; /* Smaller description for mobile */
+    }
+}
