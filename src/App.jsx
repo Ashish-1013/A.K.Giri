@@ -5,6 +5,7 @@ import Contact from './components/Contact/contact';
 import Footer from './components/Footer/footer';
 import Intro from './components/Intro/intro';
 import Navbar from './components/navbar/navbar';
+import ProjectCard from './components/Project/projectCard';
 import Skills from './components/Skills/skills';
 import Works from './components/Works/works';
 
@@ -15,7 +16,8 @@ function App() {
       <Navbar/>
       <Intro/>
       <Skills/>
-      <Works />
+      <ProjectCard />
+      
       <Career />
       <Contact />
       <Footer />

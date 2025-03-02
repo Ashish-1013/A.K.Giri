@@ -40,7 +40,7 @@ const Navbar =()=>{
             <div className={style.desktopMenu}>
                 <Link activeClass={style.active} to="intro" spy={true} smooth={true} offset={-100} duration={500} className={style.desktopMenuListItem}>Home</Link>
                 <Link activeClass={style.active} to="skills" spy={true} smooth={true} offset={-50} duration={500} className={style.desktopMenuListItem}>About</Link>
-                <Link activeClass={style.active} to="works" spy={true} smooth={true} offset={-50} duration={500} className={style.desktopMenuListItem}>Portfoleo</Link>
+                <Link activeClass={style.active} to="projectSec" spy={true} smooth={true} offset={-50} duration={500} className={style.desktopMenuListItem}>Projects</Link>
                 <Link activeClass={style.active} to="career" spy={true} smooth={true} offset={-50} duration={500} className={style.desktopMenuListItem}>Career</Link>
             </div>
             <button className={style.desktopMenuBtn} onClick={contactMe}>
@@ -52,7 +52,7 @@ const Navbar =()=>{
             <div className={style.mobnavMenu} style={{display: showMenu? 'flex':'none'}}>
                 <Link activeClass={style.active} to="intro" spy={true} smooth={true} offset={-100} duration={500} className={style.mobMenuListItem} onClick={()=>setShowMenu(false)} >Home</Link>
                 <Link activeClass={style.active} to="skills" spy={true} smooth={true} offset={-50} duration={500} className={style.mobMenuListItem} onClick={()=>setShowMenu(false)} >About</Link>
-                <Link activeClass={style.active} to="works" spy={true} smooth={true} offset={-50} duration={500} className={style.mobMenuListItem} onClick={()=>setShowMenu(false)} >Portfoleo</Link>
+                <Link activeClass={style.active} to="projectSec" spy={true} smooth={true} offset={-50} duration={500} className={style.mobMenuListItem} onClick={()=>setShowMenu(false)} >Projects</Link>
                 <Link activeClass={style.active} to="career" spy={true} smooth={true} offset={-50} duration={500} className={style.mobMenuListItem} onClick={()=>setShowMenu(false)} >Career</Link>
                 <Link activeClass={style.active} to="contact" spy={true} smooth={true} offset={-50} duration={500} className={style.mobMenuListItem} onClick={()=>setShowMenu(false)} >Contact Me</Link>
             </div>

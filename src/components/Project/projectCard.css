@@ -1,0 +1,168 @@
+/* projectCard.css */
+
+/* Section Styling */
+#projectSec {
+    margin: 0 auto;
+    min-height: calc(100vh - 4rem);
+    width: 100vw;
+    max-width: 60rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 2rem 1rem;
+}
+
+/* Page Title Styling */
+.pageTitle {
+    margin-bottom: 2rem;
+}
+
+.heading {
+    margin: 1rem 0;
+    font-size: 3rem;
+    color: white;
+}
+
+.paragraph {
+    font-weight: 300;
+    font-size: 1rem;
+    max-width: 45rem;
+    color: white;
+    line-height: 1.5;
+}
+
+/* Projects Container Styling */
+.projects {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1.5rem;
+    width: 100%;
+    padding: 1rem;
+}
+
+/* Individual Project Card Styling */
+.project {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 1.5rem;
+    text-align: left;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+    flex-wrap: wrap;
+}
+
+.project:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.proName {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    color: #333;
+}
+
+.proImg {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+}
+
+.list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0 0 1rem 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+}
+
+.list ul {
+    background-color: #f0f0f0;
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    font-size: 0.875rem;
+    color: #555;
+}
+
+.proDetail {
+    font-size: 1rem;
+    color: #666;
+    margin-bottom: 1.5rem;
+    line-height: 1.5;
+}
+
+.button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-right: 0.5rem;
+}
+
+.button:hover {
+    background-color: #0056b3;
+}
+
+
+.workBtn{
+    margin: 3rem 0;
+    padding: 0.5rem 2.5rem;
+    border: none;
+    border-radius: 2rem;
+    background: white;
+    font-size: 1rem;
+}
+
+
+
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .projects {
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        gap: 1rem;
+    }
+
+    .heading {
+        font-size: 2rem;
+    }
+
+    .paragraph {
+        font-size: 0.875rem;
+    }
+
+    .proName {
+        font-size: 1.25rem;
+    }
+
+    .button {
+        padding: 0.5rem 1rem;
+        font-size: 0.875rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .projects {
+        grid-template-columns: 1fr;
+    }
+
+    .project {
+        padding: 1rem;
+    }
+
+    .proName {
+        font-size: 1.2rem;
+    }
+
+    .proDetail {
+        font-size: 0.875rem;
+    }
+}

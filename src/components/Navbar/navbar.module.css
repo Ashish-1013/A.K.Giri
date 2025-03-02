@@ -1,3 +1,6 @@
+
+
+/*
 .navbar{
     background: rgb(25, 25, 25);
     height: 4rem;
@@ -99,4 +102,154 @@
         display: none;
     }
     
+}
+
+*/
+
+/* navbar.module.css */
+
+/* Navbar Container */
+.navbar {
+    background: linear-gradient(145deg, #1a1a1a, #2a2a2a); /* Gradient for depth */
+    height: 4rem;
+    width: 100vw;
+    max-width: 75rem;
+    margin: 0 auto;
+    padding: 1rem 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    z-index: 3;
+    border-radius: 1.5rem;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3), -5px -5px 15px rgba(255, 255, 255, 0.05); /* 3D shadow effect */
+    border: 1px solid rgba(255, 255, 255, 0.1); /* Subtle border for depth */
+}
+
+/* Logo */
+.logo {
+    object-fit: cover;
+    height: 3rem;
+    width: 4rem;
+    filter: drop-shadow(2px 2px 5px rgba(0, 0, 0, 0.5)); /* Shadow for logo */
+}
+
+/* Desktop Menu Items */
+.desktopMenuListItem {
+    margin: 1rem;
+    cursor: pointer;
+    color: white;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    position: relative;
+}
+
+.desktopMenuListItem:hover {
+    color: red;
+    transform: translateY(-2px); /* Slight lift on hover */
+    text-shadow: 2px 2px 5px rgba(255, 0, 0, 0.5); /* Glow effect */
+}
+
+.desktopMenuListItem::after {
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 100%;
+    height: 3px;
+    background: red;
+    transform: scaleX(0);
+    transition: transform 0.3s ease;
+}
+
+.desktopMenuListItem:hover::after {
+    transform: scaleX(1); /* Animated underline */
+}
+
+/* Desktop Menu Button */
+.desktopMenuBtn {
+    background: linear-gradient(145deg, #ffffff, #e6e6e6); /* Gradient for button */
+    color: rgb(0, 0, 0);
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 1rem;
+    border-radius: 2rem;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.2), -3px -3px 8px rgba(255, 255, 255, 0.1); /* 3D button shadow */
+    transition: all 0.3s ease;
+}
+
+.desktopMenuBtn:hover {
+    transform: translateY(-2px); /* Lift effect */
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3), -5px -5px 15px rgba(255, 255, 255, 0.1); /* Enhanced shadow on hover */
+}
+
+.desktopMenuImg {
+    object-fit: cover;
+    height: 1rem;
+    width: 1rem;
+    margin: 1rem;
+}
+
+/* Active Link */
+.active {
+    color: red;
+    padding-bottom: 0.5rem;
+    border-bottom: 3px solid red;
+    text-shadow: 2px 2px 5px rgba(255, 0, 0, 0.5); /* Glow effect */
+}
+
+/* Mobile Menu Icon */
+.mobMenu {
+    display: none;
+    object-fit: cover;
+    height: 3.5rem;
+    filter: drop-shadow(2px 2px 5px rgba(0, 0, 0, 0.5)); /* Shadow for mobile menu icon */
+}
+
+/* Mobile Navigation Menu */
+.mobnavMenu {
+    position: absolute;
+    top: 4rem;
+    right: 2rem;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    padding: 0.5rem;
+    height: fit-content;
+    min-width: 15rem;
+    background: linear-gradient(145deg, #2a2a2a, #1a1a1a); /* Gradient for mobile menu */
+    border-radius: 1rem;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3), -5px -5px 15px rgba(255, 255, 255, 0.05); /* 3D shadow */
+    border: 1px solid rgba(255, 255, 255, 0.1); /* Subtle border */
+}
+
+.mobMenuListItem {
+    color: white;
+    padding: 0.5rem 3rem;
+    margin: 0.25rem;
+    background: linear-gradient(145deg, #3a3a3a, #2a2a2a); /* Gradient for list items */
+    border-radius: 0.5rem;
+    transition: all 0.3s ease;
+    text-align: center;
+}
+
+.mobMenuListItem:hover {
+    transform: translateY(-2px); /* Lift effect */
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.2), -3px -3px 8px rgba(255, 255, 255, 0.1); /* Shadow on hover */
+}
+
+/* Responsive Design */
+@media screen and (max-width: 720px) {
+    .mobMenu {
+        display: flex;
+    }
+    .desktopMenu {
+        display: none;
+    }
+    .desktopMenuBtn {
+        display: none;
+    }
 }

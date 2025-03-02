@@ -32,6 +32,7 @@ return (
         </div>
         <img src={bg} alt="my image" className="bg" />
         <hr></hr>
+        <div className="scrollIndicator">↓</div>
     </section>
 )
 }

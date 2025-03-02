@@ -1,4 +1,4 @@
-
+/*
 #intro{
     height: calc(100vh - 4rem);
     width: 100vw;
@@ -10,7 +10,7 @@
 }
 .bg{
     position: absolute;
-    /*i top: -0rem;    change it for image*/
+    /*i top: -0rem;    change it for image
     top: 1rem;
     right: 4rem;
     z-index: -1;
@@ -86,4 +86,178 @@
 
     }
     
+}
+
+*/
+
+
+
+
+
+
+
+
+/* intro.css */
+
+/* Intro Section */
+#intro {
+    height: calc(100vh - 4rem);
+    width: 100vw;
+    margin: 0 auto;
+    max-width: 75rem;
+    overflow: hidden;
+    position: relative;
+    background: linear-gradient(145deg, #1a1a1a, #2a2a2a); /* Gradient background */
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.3), -10px -10px 20px rgba(255, 255, 255, 0.05); /* 3D shadow */
+    border-radius: 1.5rem;
+}
+
+/* Background Image */
+.bg {
+    position: absolute;
+    top: 1rem;
+    right: 4rem;
+    z-index: 1;
+    height: 90vh;
+    object-fit: cover;
+    filter: drop-shadow(5px 5px 15px rgba(0, 0, 0, 0.5)); /* Shadow for depth */
+    animation: float 3s ease-in-out infinite; /* Floating animation */
+}
+
+@keyframes float {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10px); /* Floating effect */
+    }
+}
+
+/* Intro Content */
+.introContent {
+    height: 100vh;
+    width: 100vw;
+    padding: 2rem;
+    font-size: 3rem;
+    font-weight: 700;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    z-index: 2;
+    position: relative;
+}
+
+.hello {
+    font-size: 1.75rem;
+    font-weight: 300;
+    color: #ff4d4d; /* Red color for "Hello" */
+    text-shadow: 2px 2px 5px rgba(255, 0, 0, 0.5); /* Glow effect */
+}
+
+.introText {
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: 1.2;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); /* Text shadow for depth */
+}
+
+.introName {
+    color: #ff4d4d; /* Red color for name */
+    text-shadow: 2px 2px 5px rgba(255, 0, 0, 0.5); /* Glow effect */
+}
+
+.introPara {
+    font-size: 1.25rem;
+    font-weight: 300;
+    margin-top: 1rem;
+    color: #ccc; /* Light gray for paragraph */
+    max-width: 600px;
+    line-height: 1.5;
+}
+
+/* Button Styling */
+.btn {
+    background: linear-gradient(145deg, #ff4d4d, #cc0000); /* Gradient button */
+    color: white;
+    margin: 1rem 0;
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 2rem;
+    font-size: 1rem;
+    font-weight: 500;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.2), -3px -3px 8px rgba(255, 255, 255, 0.1); /* 3D shadow */
+    transition: all 0.3s ease;
+}
+
+.btn:hover {
+    transform: translateY(-2px); /* Lift effect */
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3), -5px -5px 15px rgba(255, 255, 255, 0.1); /* Enhanced shadow */
+}
+
+.btnImg {
+    object-fit: cover;
+    margin: 0 0.25rem;
+    height: 1rem;
+    filter: drop-shadow(1px 1px 2px rgba(0, 0, 0, 0.3)); /* Shadow for icon */
+}
+
+
+/* Scroll Indicator */
+.scrollIndicator {
+    position: absolute;
+    bottom: 2rem;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 2rem;
+    color: #ff4d4d;
+    animation: bounce 2s infinite;
+}
+
+@keyframes bounce {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+}
+
+/* Responsive Design */
+@media screen and (max-width: 840px) {
+    .bg {
+        right: -16vw;
+    }
+    .introContent {
+        font-size: 10vw;
+    }
+    .hello {
+        font-size: 4.5vw;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .bg {
+        right: -20vw;
+    }
+}
+
+@media screen and (max-width: 525px) {
+    .bg {
+        right: -30vw;
+    }
+    .introText {
+        font-size: 2rem;
+    }
+    .introPara {
+        font-size: 1rem;
+    }
+    .btn {
+        font-size: 0.875rem;
+        padding: 0.5rem 1rem;
+    }
 }
