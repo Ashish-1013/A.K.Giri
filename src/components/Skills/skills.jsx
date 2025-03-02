@@ -19,6 +19,7 @@ const Skills = () => {
                 <div className="skillBarText">
                 <h2>UI/UX Desgine</h2>
                 <p>UI/UX design creates intuitive, user-friendly interfaces.</p>
+                <p>Figma | Adobe PS | Canva</p>
                 </div>
             </div>
 
@@ -27,6 +28,7 @@ const Skills = () => {
                 <div className="skillBarText">
                 <h2>Frontend(Client-Side)</h2>
                 <p>Transforming Ideas into Stunning Interactive Web Experiences.</p>
+                <p>JavaScript | reactJS | Flutter | HTML5 | CSS3 | ridux | postman</p>
                 </div>
             </div>
 
@@ -35,6 +37,7 @@ const Skills = () => {
                 <div className="skillBarText">
                 <h2>Backend(Server-Side)</h2>
                 <p>Powering Seamless Digital Experiences with Precision and Reliability.</p>
+                <p>Java | springboot | .NET | python | Dart</p>
                 </div>
             </div>
 
@@ -43,6 +46,7 @@ const Skills = () => {
                 <div className="skillBarText">
                 <h2>Database</h2>
                 <p>Ensuring Data Integrity, Security, and Optimal Performance.</p>
+                <p>SQL | mySQL | oracle | mongoDB</p>
                 </div>
             </div>
         </div>
