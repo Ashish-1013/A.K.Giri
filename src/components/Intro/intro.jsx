@@ -3,6 +3,8 @@ import React from 'react'
 import { Link } from 'react-scroll';   
 import bg from "../../assets/anime 16_1.png";
 import btnImg from "../../assets/hireme.png";
+import Linkedin from "../../assets/linkedin.png"
+import GitHub from "../../assets/github22.png"
 import cv from "../../assets/Ashish Kumar Giri - .pdf"
 
 const Intro = () => {
@@ -29,6 +31,10 @@ return (
             <span className="introText"> I'm <span className="introName">Ashish,<br/></span>Website Devloper</span>
             <p className="introPara">Crafting Creativity, One Project at a Time.😉</p>
             <Link><button className="btn" onClick={myCvDown}><img src={btnImg} alt="hire me" className="btnImg"/> Download CV </button></Link>
+            <span className="links1">
+            <a href="https://www.linkedin.com/in/akgiri10/" target="_blank" rel="noopener noreferrer"><img src={Linkedin} alt="Linkedin" className="link1" /></a>
+            <a href="https://github.com/Ashish-1013" target="_blank" rel="noopener noreferrer"><img src={GitHub} alt="GitHub" className="link1" /></a>
+            </span>
         </div>
         <img src={bg} alt="my image" className="bg" />
         <hr></hr>
