@@ -1,9 +1,9 @@
 import React, {useState} from "react";
 import style from'./navbar.module.css';    //module css
-import logo from '../../assets/letter-gr-a.png';
+import logo from '../../assets/ak1.jpg';
 import { Link } from 'react-scroll';  //npm i react-scroll
 import contactImg from '/src/assets/contact.png';
-import Menu from "../../assets/main-menu.png";
+import Menu from "../../assets/menu_4.png";
 
 
 const Navbar =()=>{

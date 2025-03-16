@@ -5,7 +5,8 @@ import Instagram from "../../assets/instagram2.png"
 import Linkedin from "../../assets/linkedin.png"
 import GitHub from "../../assets/github22.png"
 import Telegram from "../../assets/telegram.png"
-import Twiter from "../../assets/twitter1.png"  
+import Twiter from "../../assets/twitter1.png" 
+import discord from "../../assets/discord1.png" 
 import YouTube from "../../assets/youtube33.png" //not added
 import emailjs from '@emailjs/browser';   //install emailJs =: npm install --save @emailjs/browser
 
@@ -49,7 +50,7 @@ function Contact() {
             <div className="links">
               
 
-              <a href="https://www.instagram.com/a.k.giri_/" target="_blank" rel="noopener noreferrer"><img src={Instagram} alt="Instagram" className="link" /></a>
+              <a href="https://www.instagram.com/a.k.giri_/" target="_blank" rel="noopener noreferrer"><img src={Instagram} alt="instagram" className="link" /></a>
               <a href="https://www.facebook.com/profile.php?id=100088784576510" target="_blank" rel="noopener noreferrer"><img src={Facebook} alt="Facebook" className="link" /></a>
               <a href="https://x.com/ASHISH10130" target="_blank" rel="noopener noreferrer"><img src={Twiter} alt="X" className="link" /></a>
               <a href="http://t.me/Das_leo_0" target="_blank" rel="noopener noreferrer"><img src={Telegram} alt="Telegram" className="link" /></a>
