@@ -5,7 +5,7 @@ import bg from "../../assets/anime 16_1.png";
 import btnImg from "../../assets/hireme.png";
 import Linkedin from "../../assets/linkedin.png"
 import GitHub from "../../assets/github22.png"
-import cv from "../../assets/Ashish Kumar Giri - Resume.pdf"
+import cv from "../../assets/Ashish Kumar Giri - Resume2.pdf"
 
 const Intro = () => {
 
@@ -14,7 +14,7 @@ const Intro = () => {
         const pdfUrl = cv;
         const link = document.createElement("a");
         link.href = pdfUrl;
-        link.download = "Ashish Kumar Giri_CV.pdf"; // specify the filename
+        link.download = "A.K.Giri_CV.pdf"; // specify the filename
         document.body.appendChild(link);
         link.click();
         document.body.removeChild(link); 
