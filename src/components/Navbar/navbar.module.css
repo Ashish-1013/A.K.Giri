@@ -253,4 +253,15 @@
     .desktopMenuBtn {
         display: none;
     }
+    .logo{
+        height: 2rem;
+        width: 2rem;
+    }
+    .navbar{
+        height: 3rem;
+    }
+    .mobMenu{
+        height: 2rem;
+        width: 2rem;
+    }
 }
