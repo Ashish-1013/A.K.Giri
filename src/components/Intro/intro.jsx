@@ -28,7 +28,7 @@ return (
     <section id="intro">
         <div className="introContent">
             <span className="hello">Hello</span>
-            <span className="introText"> I'm <span className="introName">Ashish,<br/></span>Website Devloper</span>
+            <span className="introText"> I'm <span className="introName">Ashish,<br/></span>Software Devloper</span>
             <p className="introPara">Crafting Creativity, One Project at a Time.😉</p>
             <Link><button className="btn" onClick={myCvDown}><img src={btnImg} alt="hire me" className="btnImg"/> Download CV </button></Link>
             <span className="links1">
