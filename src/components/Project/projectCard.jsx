@@ -38,7 +38,7 @@ const ProjectCard = () => {
                 </li>
                 <p className="proDetail">Magical Shopper is a E-commorce website , i created this with my friends help and our trenner Mr Murthy sir's help.</p>
                 <a href="https://github.com/Ashish-1013/Magical_Shopper/" target="_blank" rel="noopener noreferrer"><button className="button">GitHub</button></a>
-                <a href="https://ashish-1013.github.io/Magical_Shopper/" target="_blank" rel="noopener noreferrer"><button className="button">GO</button></a>
+                <a href="https://ashish-1013.github.io/Magica-Shopper-Vite-1/" target="_blank" rel="noopener noreferrer"><button className="button">GO</button></a>
             </div>
             <div className="project">
                 <h3 className="proName">jiocinema clone</h3>
