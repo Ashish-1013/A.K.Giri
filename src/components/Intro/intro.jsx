@@ -5,7 +5,7 @@ import bg from "../../assets/anime 16_1.png";
 import btnImg from "../../assets/hireme.png";
 import Linkedin from "../../assets/linkedin.png"
 import GitHub from "../../assets/github22.png"
-import cv from "../../assets/Ashish Kumar Giri - Resume2.pdf"
+import cv from "../../assets/A.K.pdf"
 
 const Intro = () => {
 
