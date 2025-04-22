@@ -5,7 +5,8 @@ import bg from "../../assets/anime 16_1.png";
 import btnImg from "../../assets/hireme.png";
 import Linkedin from "../../assets/linkedin.png"
 import GitHub from "../../assets/github22.png"
-import cv from "../../assets/A.K.pdf"
+import CV from "../../assets/CV.png"
+import cv from "../../assets/Ashish Kumar Giri - Full Stack Developer (Java + React).pdf"
 
 const Intro = () => {
 
@@ -34,6 +35,7 @@ return (
             <span className="links1">
             <a href="https://www.linkedin.com/in/akgiri10/" target="_blank" rel="noopener noreferrer"><img src={Linkedin} alt="Linkedin" className="link1" /></a>
             <a href="https://github.com/Ashish-1013" target="_blank" rel="noopener noreferrer"><img src={GitHub} alt="GitHub" className="link1" /></a>
+            {/* <a href="" target="_blank" rel="noopener noreferrer"><img src={CV} alt="MY CV" className="link1" /></a> */}
             </span>
         </div>
         <img src={bg} alt="my image" className="bg" />
