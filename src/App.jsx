@@ -5,7 +5,7 @@ import CareerJourney from './components/Career/careerJourney';
 import Contact from './components/Contact/contact';
 import Footer from './components/Footer/footer';
 import Intro from './components/Intro/intro';
-import Navbar from './components/navbar/navbar';
+import Navbar from './components/Navbar/navbar';
 import ProjectCard from './components/Project/projectCard';
 import Skills from './components/Skills/skills';
 import Certificate from './components/Certificate/myCertificate';
