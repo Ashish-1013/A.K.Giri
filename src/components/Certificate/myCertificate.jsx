@@ -34,7 +34,7 @@ export default MyCertificate;
 */
 
 import React from 'react';
-import './MyCertificate.css'; // Import normal CSS
+import './myCertificate.css'; // Import normal CSS
 
 const MyCertificate = ({ certificates }) => {
   return (
