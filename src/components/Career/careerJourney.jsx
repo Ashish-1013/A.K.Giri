@@ -25,15 +25,15 @@ const CareerJourney = () => {
       description: 'Completed Masters’s Degree in Computer Application from Biju Patnaik University.',
     },
     {
-      year: 'Present',
-      title: 'Full-Stack Developer',
-      description: 'Currently working as a Full-Stack Developer at Besant Technology, building scalable web applications.',
+      year: '2023-24',
+      title: 'Full-Stack Developer Training',
+      description: 'Currently working as a Full-Stack Developer at Besant Technology, building scalable web applications and did some freelancing work also.',
     },
-    /*{
-      year: '2024',
-      title: 'Present Job - Full-Stack Developer',
-      description: 'Currently working as a Full-Stack Developer at DEF Solutions, building scalable web applications.',
-    },*/
+    {
+      year: 'Present',
+      title: 'eLearning Developer and Frontend Developer',
+      description: 'Currently working at HexaLearn pvt. ltd.,',
+    },
   ];
 
   return (
