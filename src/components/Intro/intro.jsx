@@ -1,7 +1,7 @@
 import "./intro.css";        //normal css
 import React from 'react'
-import { Link } from 'react-scroll';   
-import bg from "../../assets/anime 16_1.png";
+import { Link } from 'react-scroll';
+import bg from "../../assets/BackgroundImg.webp";
 import btnImg from "../../assets/hireme.png";
 import Linkedin from "../../assets/linkedin.png"
 import GitHub from "../../assets/github22.png"
